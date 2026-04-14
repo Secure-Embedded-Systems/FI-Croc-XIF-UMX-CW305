@@ -1,6 +1,6 @@
 # MX-FI-Artifacts
 
-Reproducibility artifacts for fault injection on the CROC SoC (CVE2 Ibex RV32IMC + Unified MX Coprocessor via CV-X-IF). Evaluates three OCP Microscaling formats (MXINT8, MXFP8-E4M3, MXFP8-E5M2) and two proposed logarithmic formats (MXLOG8, MXLOG8-LOGDOM) under DVFS and clock glitch attack.
+Artifacts for fault injection on the CROC SoC (CVE2 Ibex RV32IMC + Unified MX Coprocessor via CV-X-IF). Evaluates three OCP Microscaling formats (MXINT8, MXFP8-E4M3, MXFP8-E5M2) and two proposed logarithmic formats (MXLOG8, MXLOG8-LOGDOM) under DVFS and clock glitch attack.
 
 ## Hardware Setup
 
@@ -106,6 +106,3 @@ python3 scripts/dvfs_bitnet_5format.py
 python3 scripts/clkglitch_qnn_5format.py
 ```
 
-## Authors
-
-Dillibabu Shanmugam, Patrick Schaumont — Worcester Polytechnic Institute
