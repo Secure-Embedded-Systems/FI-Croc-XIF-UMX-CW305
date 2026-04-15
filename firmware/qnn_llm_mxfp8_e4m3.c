@@ -5,7 +5,7 @@
 //
 // MX coprocessor ops: DOT4, ADD4, RELU4, MUL4, CVT_ENC, SET_SE
 //
-// Authors: Dillibabu Shanmugam, Patrick Schaumont (WPI)
+
 
 #include "uart.h"
 #include "print.h"
