@@ -3,8 +3,7 @@
 // QNN-LLM: 2-layer GPT-style language model, MXLOG8 log-domain arithmetic
 // Key difference: LOGDOM DOT4 stays in log-domain (multiply=add, accum=log_add)
 // CVT_LIN converts back to linear for softmax / re-quantization
-//
-// Authors: Dillibabu Shanmugam, Patrick Schaumont (WPI)
+
 
 #include "uart.h"
 #include "print.h"
