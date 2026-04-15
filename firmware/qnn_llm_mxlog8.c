@@ -3,8 +3,7 @@
 // QNN-LLM: 2-layer GPT-style language model, quantized to LOG8 (1S.4FI.3FE)
 // LOG8 DOT4 decodes to linear, multiplies, accumulates → int32 result
 // Re-quantization uses CVT_ENC (linear → LOG8 encoding)
-//
-// Authors: Dillibabu Shanmugam, Patrick Schaumont (WPI)
+
 
 #include "uart.h"
 #include "print.h"
