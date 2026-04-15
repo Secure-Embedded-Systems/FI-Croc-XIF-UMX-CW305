@@ -6,8 +6,7 @@
 //
 // MX coprocessor ops used: DOT4, ADD4, RELU4, MUL4, SET_SE
 // IMEM budget: ~2180B weights + ~1800B code ≈ 4KB
-//
-// Authors: Dillibabu Shanmugam, Patrick Schaumont (WPI)
+
 
 #include "uart.h"
 #include "print.h"
