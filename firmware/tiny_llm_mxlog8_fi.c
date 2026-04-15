@@ -3,8 +3,7 @@
 //
 // Architecture: 2-layer transformer decoder, d_model=8, 2-head
 // Prompt: 4 tokens in, 4 tokens generated
-//
-// Authors: Dillibabu Shanmugam, Patrick Schaumont (WPI)
+
 
 #include "uart.h"
 #include "print.h"
