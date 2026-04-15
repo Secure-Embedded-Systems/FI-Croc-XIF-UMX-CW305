@@ -10,7 +10,7 @@
 // funct7 = {2'b00, format[2:0], 1'b0, group}
 // Operation = {group, funct3} → 4-bit selector
 //
-// Authors: Dillibabu Shanmugam, Patrick Schaumont (WPI)
+
 
 #ifndef MX_H
 #define MX_H
