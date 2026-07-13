@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this artifact, please cite the following."
-title: "Fault Analysis of Microscaling Formats on a RISC-V SoC"
+title: "Security Analysis of Microscaling Formats Under Fault Injection on a RISC-V Edge Platform"
 authors:
   - family-names: Shanmugam
     given-names: Dillibabu
@@ -9,16 +9,15 @@ authors:
     given-names: Patrick
     affiliation: "Worcester Polytechnic Institute, USA"
 year: 2026
+url: "https://par.nsf.gov/servlets/purl/10681571"
 preferred-citation:
   type: conference-paper
-  title: "Fault Analysis of Microscaling Formats on a RISC-V SoC"
+  title: "Security Analysis of Microscaling Formats Under Fault Injection on a RISC-V Edge Platform"
   authors:
     - family-names: Shanmugam
       given-names: Dillibabu
     - family-names: Schaumont
       given-names: Patrick
-  collection-title: "Proceedings of the Great Lakes Symposium on VLSI 2026 (GLSVLSI '26)"
-  publisher:
-    name: ACM
+  collection-title: "AIHWS 2026"
   year: 2026
-  doi: "10.1145/3787109.3815291"
+  url: "https://par.nsf.gov/servlets/purl/10681571"

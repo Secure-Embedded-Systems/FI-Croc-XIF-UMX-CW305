@@ -1,4 +1,4 @@
-# Fault Analysis of Microscaling Formats on a RISC-V SoC
+# Security Analysis of Microscaling Formats Under Fault Injection on a RISC-V Edge Platform
 
 Reproducibility artifact for the fault-injection study of OCP Microscaling (MX)
 number formats on a CROC RISC-V SoC with a unified MX coprocessor attached over
@@ -128,17 +128,17 @@ and analysis are the authors' own and were reviewed by them.
 
 ## Citation
 
-Shanmugam, D. and Schaumont, P. (2026). Fault Analysis of Microscaling Formats
-on a RISC-V SoC. Proceedings of the Great Lakes Symposium on VLSI 2026
-(GLSVLSI '26). ACM. https://doi.org/10.1145/3787109.3815291.
+Shanmugam, D. and Schaumont, P. (2026). Security Analysis of Microscaling
+Formats Under Fault Injection on a RISC-V Edge Platform. AIHWS 2026.
+https://par.nsf.gov/servlets/purl/10681571
 
 ```bibtex
-@inproceedings{Shanmugam2026MXFault,
+@inproceedings{Shanmugam2026MXSecurity,
   author    = {Dillibabu Shanmugam and Patrick Schaumont},
-  title     = {Fault Analysis of Microscaling Formats on a {RISC-V} {SoC}},
-  booktitle = {Proceedings of the Great Lakes Symposium on VLSI 2026 (GLSVLSI)},
+  title     = {Security Analysis of Microscaling Formats Under Fault Injection on a {RISC-V} Edge Platform},
+  booktitle = {AIHWS 2026},
   year      = {2026},
-  doi       = {10.1145/3787109.3815291}
+  url       = {https://par.nsf.gov/servlets/purl/10681571}
 }
 ```
 

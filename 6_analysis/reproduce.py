@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0
-# Fault Analysis of Microscaling Formats on a RISC-V SoC
+# Security Analysis of Microscaling Formats Under Fault Injection on a RISC-V Edge Platform
 # Authors: Dillibabu Shanmugam, Patrick Schaumont
 # Affiliation: Worcester Polytechnic Institute (WPI), USA
 """
