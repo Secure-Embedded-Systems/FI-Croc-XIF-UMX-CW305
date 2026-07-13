@@ -1,0 +1,1718 @@
+{
+  "mxfp8_e5m2": {
+    "golden": 11,
+    "trials": [
+      {
+        "vccint": 1.0,
+        "trial": 0,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 1.0,
+        "trial": 1,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 1.0,
+        "trial": 2,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.95,
+        "trial": 0,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.95,
+        "trial": 1,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.95,
+        "trial": 2,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.9,
+        "trial": 0,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.9,
+        "trial": 1,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.9,
+        "trial": 2,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.85,
+        "trial": 0,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.85,
+        "trial": 1,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.85,
+        "trial": 2,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.82,
+        "trial": 0,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.82,
+        "trial": 1,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.82,
+        "trial": 2,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.8,
+        "trial": 0,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.8,
+        "trial": 1,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.8,
+        "trial": 2,
+        "ret": 11,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.78,
+        "trial": 0,
+        "ret": 17,
+        "class": "fault",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.78,
+        "trial": 1,
+        "ret": 0,
+        "class": "fault",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.78,
+        "trial": 2,
+        "ret": 4,
+        "class": "fault",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.76,
+        "trial": 0,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.76,
+        "trial": 1,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.76,
+        "trial": 2,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.75,
+        "trial": 0,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.75,
+        "trial": 1,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.75,
+        "trial": 2,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.74,
+        "trial": 0,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.74,
+        "trial": 1,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.74,
+        "trial": 2,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.73,
+        "trial": 0,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.73,
+        "trial": 1,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.73,
+        "trial": 2,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.72,
+        "trial": 0,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.72,
+        "trial": 1,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.72,
+        "trial": 2,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.71,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.71,
+        "trial": 1,
+        "ret": 64,
+        "class": "crash",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.71,
+        "trial": 2,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 2147483744
+      },
+      {
+        "vccint": 0.7,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.7,
+        "trial": 1,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.7,
+        "trial": 2,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.69,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.69,
+        "trial": 1,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.69,
+        "trial": 2,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.68,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.68,
+        "trial": 1,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.68,
+        "trial": 2,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.67,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.67,
+        "trial": 1,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.67,
+        "trial": 2,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.66,
+        "trial": 0,
+        "ret": 2175,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.66,
+        "trial": 1,
+        "ret": 2175,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.66,
+        "trial": 2,
+        "ret": 2175,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.65,
+        "trial": 0,
+        "ret": 2175,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.65,
+        "trial": 1,
+        "ret": 2175,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.65,
+        "trial": 2,
+        "ret": 2175,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.64,
+        "trial": 0,
+        "ret": 2943,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.64,
+        "trial": 1,
+        "ret": 2943,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.64,
+        "trial": 2,
+        "ret": 2943,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.63,
+        "trial": 0,
+        "ret": 2147483647,
+        "class": "dead",
+        "se_a": 255,
+        "se_b": 255,
+        "mac": 4294967295
+      },
+      {
+        "vccint": 0.63,
+        "trial": 1,
+        "ret": 2147483647,
+        "class": "dead",
+        "se_a": 255,
+        "se_b": 255,
+        "mac": 4294967295
+      },
+      {
+        "vccint": 0.63,
+        "trial": 2,
+        "ret": 2147483647,
+        "class": "dead",
+        "se_a": 255,
+        "se_b": 255,
+        "mac": 4294967295
+      }
+    ]
+  },
+  "mxlog8": {
+    "golden": 8,
+    "trials": [
+      {
+        "vccint": 1.0,
+        "trial": 0,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 1.0,
+        "trial": 1,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 1.0,
+        "trial": 2,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.95,
+        "trial": 0,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.95,
+        "trial": 1,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.95,
+        "trial": 2,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.9,
+        "trial": 0,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.9,
+        "trial": 1,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.9,
+        "trial": 2,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.85,
+        "trial": 0,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.85,
+        "trial": 1,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.85,
+        "trial": 2,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.82,
+        "trial": 0,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.82,
+        "trial": 1,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.82,
+        "trial": 2,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.8,
+        "trial": 0,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.8,
+        "trial": 1,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.8,
+        "trial": 2,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.78,
+        "trial": 0,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.78,
+        "trial": 1,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.78,
+        "trial": 2,
+        "ret": 8,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.76,
+        "trial": 0,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.76,
+        "trial": 1,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.76,
+        "trial": 2,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.75,
+        "trial": 0,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.75,
+        "trial": 1,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.75,
+        "trial": 2,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.74,
+        "trial": 0,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.74,
+        "trial": 1,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.74,
+        "trial": 2,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.73,
+        "trial": 0,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.73,
+        "trial": 1,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.73,
+        "trial": 2,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.72,
+        "trial": 0,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.72,
+        "trial": 1,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.72,
+        "trial": 2,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.71,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.71,
+        "trial": 1,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.71,
+        "trial": 2,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.7,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.7,
+        "trial": 1,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.7,
+        "trial": 2,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.69,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.69,
+        "trial": 1,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.69,
+        "trial": 2,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.68,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.68,
+        "trial": 1,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.68,
+        "trial": 2,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.67,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.67,
+        "trial": 1,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.67,
+        "trial": 2,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.66,
+        "trial": 0,
+        "ret": 2175,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.66,
+        "trial": 1,
+        "ret": 2175,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.66,
+        "trial": 2,
+        "ret": 2175,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.65,
+        "trial": 0,
+        "ret": 2175,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.65,
+        "trial": 1,
+        "ret": 2175,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.65,
+        "trial": 2,
+        "ret": 2175,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.64,
+        "trial": 0,
+        "ret": 2175,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.64,
+        "trial": 1,
+        "ret": 2175,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.64,
+        "trial": 2,
+        "ret": 2175,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.63,
+        "trial": 0,
+        "ret": 2147483647,
+        "class": "dead",
+        "se_a": 255,
+        "se_b": 255,
+        "mac": 4294967295
+      },
+      {
+        "vccint": 0.63,
+        "trial": 1,
+        "ret": 2147483647,
+        "class": "dead",
+        "se_a": 255,
+        "se_b": 255,
+        "mac": 4294967295
+      },
+      {
+        "vccint": 0.63,
+        "trial": 2,
+        "ret": 2147483647,
+        "class": "dead",
+        "se_a": 255,
+        "se_b": 255,
+        "mac": 4294967295
+      }
+    ]
+  },
+  "mxlog8_logdom": {
+    "golden": 0,
+    "trials": [
+      {
+        "vccint": 1.0,
+        "trial": 0,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 1.0,
+        "trial": 1,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 1.0,
+        "trial": 2,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.95,
+        "trial": 0,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.95,
+        "trial": 1,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.95,
+        "trial": 2,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.9,
+        "trial": 0,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.9,
+        "trial": 1,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.9,
+        "trial": 2,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.85,
+        "trial": 0,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.85,
+        "trial": 1,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.85,
+        "trial": 2,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.82,
+        "trial": 0,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.82,
+        "trial": 1,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.82,
+        "trial": 2,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.8,
+        "trial": 0,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.8,
+        "trial": 1,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.8,
+        "trial": 2,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.78,
+        "trial": 0,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.78,
+        "trial": 1,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.78,
+        "trial": 2,
+        "ret": 0,
+        "class": "normal",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.76,
+        "trial": 0,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.76,
+        "trial": 1,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.76,
+        "trial": 2,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.75,
+        "trial": 0,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.75,
+        "trial": 1,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.75,
+        "trial": 2,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.74,
+        "trial": 0,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.74,
+        "trial": 1,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.74,
+        "trial": 2,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.73,
+        "trial": 0,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.73,
+        "trial": 1,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.73,
+        "trial": 2,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.72,
+        "trial": 0,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.72,
+        "trial": 1,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.72,
+        "trial": 2,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 0,
+        "se_b": 0,
+        "mac": 0
+      },
+      {
+        "vccint": 0.71,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.71,
+        "trial": 1,
+        "ret": 0,
+        "class": "crash",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.71,
+        "trial": 2,
+        "ret": 96,
+        "class": "crash",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.7,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.7,
+        "trial": 1,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.7,
+        "trial": 2,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.69,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.69,
+        "trial": 1,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.69,
+        "trial": 2,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.68,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.68,
+        "trial": 1,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.68,
+        "trial": 2,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.67,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.67,
+        "trial": 1,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.67,
+        "trial": 2,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.66,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.66,
+        "trial": 1,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.66,
+        "trial": 2,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.65,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.65,
+        "trial": 1,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.65,
+        "trial": 2,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.64,
+        "trial": 0,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.64,
+        "trial": 1,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.64,
+        "trial": 2,
+        "ret": 127,
+        "class": "fault",
+        "se_a": 128,
+        "se_b": 0,
+        "mac": 2147483775
+      },
+      {
+        "vccint": 0.63,
+        "trial": 0,
+        "ret": 2147483647,
+        "class": "dead",
+        "se_a": 255,
+        "se_b": 255,
+        "mac": 4294967295
+      },
+      {
+        "vccint": 0.63,
+        "trial": 1,
+        "ret": 2147483647,
+        "class": "dead",
+        "se_a": 255,
+        "se_b": 255,
+        "mac": 4294967295
+      },
+      {
+        "vccint": 0.63,
+        "trial": 2,
+        "ret": 2147483647,
+        "class": "dead",
+        "se_a": 255,
+        "se_b": 255,
+        "mac": 4294967295
+      }
+    ]
+  }
+}

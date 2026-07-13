@@ -1,0 +1,610 @@
+[
+  {
+    "vccint": 1.0,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.99,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.98,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.97,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.96,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.95,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.94,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.93,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.92,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.91,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.9,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.89,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.88,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.87,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.86,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.85,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.84,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.83,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.82,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.81,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.8,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.79,
+    "ret": 25,
+    "eoc": 1,
+    "class": "normal",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.78,
+    "ret": 0,
+    "eoc": 0,
+    "class": "crash",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.77,
+    "ret": 0,
+    "eoc": 0,
+    "class": "crash",
+    "se_a": 255,
+    "se_b": 255,
+    "mac": 4294967295,
+    "rs1": 4294967295,
+    "consistent": true,
+    "scan_reads": [
+      255,
+      255,
+      255
+    ]
+  },
+  {
+    "vccint": 0.76,
+    "ret": 0,
+    "eoc": 0,
+    "class": "crash",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.75,
+    "ret": 0,
+    "eoc": 0,
+    "class": "crash",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.74,
+    "ret": 0,
+    "eoc": 0,
+    "class": "crash",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.73,
+    "ret": 0,
+    "eoc": 0,
+    "class": "crash",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.72,
+    "ret": 0,
+    "eoc": 0,
+    "class": "crash",
+    "se_a": 0,
+    "se_b": 0,
+    "mac": 0,
+    "rs1": 0,
+    "consistent": true,
+    "scan_reads": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "vccint": 0.71,
+    "ret": 127,
+    "eoc": 1,
+    "class": "fault",
+    "se_a": 128,
+    "se_b": 0,
+    "mac": 2147483775,
+    "rs1": 2147483775,
+    "consistent": true,
+    "scan_reads": [
+      128,
+      128,
+      128
+    ]
+  },
+  {
+    "vccint": 0.7,
+    "ret": 127,
+    "eoc": 1,
+    "class": "fault",
+    "se_a": 128,
+    "se_b": 0,
+    "mac": 2147483775,
+    "rs1": 2147483775,
+    "consistent": true,
+    "scan_reads": [
+      128,
+      128,
+      128
+    ]
+  },
+  {
+    "vccint": 0.69,
+    "ret": 127,
+    "eoc": 1,
+    "class": "fault",
+    "se_a": 128,
+    "se_b": 0,
+    "mac": 2147483775,
+    "rs1": 2147483775,
+    "consistent": true,
+    "scan_reads": [
+      128,
+      128,
+      128
+    ]
+  },
+  {
+    "vccint": 0.68,
+    "ret": 127,
+    "eoc": 1,
+    "class": "fault",
+    "se_a": 128,
+    "se_b": 0,
+    "mac": 2147483775,
+    "rs1": 2147483775,
+    "consistent": true,
+    "scan_reads": [
+      128,
+      128,
+      128
+    ]
+  },
+  {
+    "vccint": 0.67,
+    "ret": 127,
+    "eoc": 1,
+    "class": "fault",
+    "se_a": 128,
+    "se_b": 0,
+    "mac": 2147483775,
+    "rs1": 2147483775,
+    "consistent": true,
+    "scan_reads": [
+      128,
+      128,
+      128
+    ]
+  },
+  {
+    "vccint": 0.66,
+    "ret": 2175,
+    "eoc": 1,
+    "class": "fault",
+    "se_a": 128,
+    "se_b": 0,
+    "mac": 2147483775,
+    "rs1": 2147483903,
+    "consistent": true,
+    "scan_reads": [
+      128,
+      128,
+      128
+    ]
+  },
+  {
+    "vccint": 0.65,
+    "ret": 2175,
+    "eoc": 1,
+    "class": "fault",
+    "se_a": 128,
+    "se_b": 0,
+    "mac": 2147483775,
+    "rs1": 2155905279,
+    "consistent": true,
+    "scan_reads": [
+      128,
+      128,
+      128
+    ]
+  },
+  {
+    "vccint": 0.64,
+    "ret": 2431,
+    "eoc": 1,
+    "class": "fault",
+    "se_a": 128,
+    "se_b": 0,
+    "mac": 2147483775,
+    "rs1": 2147483775,
+    "consistent": true,
+    "scan_reads": [
+      128,
+      128,
+      128
+    ]
+  },
+  {
+    "vccint": 0.63,
+    "ret": 2147483647,
+    "eoc": 1,
+    "class": "dead",
+    "se_a": 255,
+    "se_b": 255,
+    "mac": 4294967295,
+    "rs1": 4294967295,
+    "consistent": true,
+    "scan_reads": [
+      255,
+      255,
+      255
+    ]
+  }
+]

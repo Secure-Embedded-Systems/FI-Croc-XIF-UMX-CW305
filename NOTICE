@@ -1,0 +1,19 @@
+Fault Analysis of Microscaling Formats on a RISC-V SoC
+Copyright 2026 Dillibabu Shanmugam, Patrick Schaumont
+Worcester Polytechnic Institute (WPI), USA
+
+Licensed under the Apache License, Version 2.0.
+
+This product includes derivative works of third-party components:
+
+  * The CROC platform (ETH Zurich / University of Bologna), Apache-2.0.
+    - 3_firmware/soc/link.ld  (linker script, adapted)
+    - 3_firmware/soc/crt0.S   (startup code, adapted)
+    The CROC SoC and PULP common cells are vendored under 1_rtl/croc/ and
+    retain their upstream Apache-2.0 / Solderpad license headers.
+
+  * CVE2 (OpenHW Group) small 32-bit RISC-V core, Apache-2.0 / Solderpad.
+  * CV-X-IF (OpenHW Group) core-external extension interface.
+
+Vivado synthesis and timing reports under 2_synthesis/reports/ contain a
+standard Xilinx report banner and are included for reference only.

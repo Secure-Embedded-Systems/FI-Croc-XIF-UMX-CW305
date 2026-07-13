@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "timestamp": "2026-04-12T23:45:00",
+    "scope": "CW-Lite (OpenADC)",
+    "target": "CW305 Artix-7 (XC7A35T)",
+    "bitstream": "croc_cw305.bit (CROC CVE2 + MX Unified Coprocessor)",
+    "firmware": "qnn_llm_mxint8 (2-layer GPT decoder, MXINT8 dot products)",
+    "glitch_method": "clock_xor via HS2 on 20-pin connector",
+    "trigger": "USB register 0x05 (usb_trigger in croc_cw305.sv)",
+    "dip_switches": "J16=1 K16=1 K15=1 L14=1",
+    "target_clock": "20 MHz (CW305 PLL)"
+  },
+  "glitch_parameters": {
+    "scope.clock.clkgen_freq": 20000000,
+    "scope.io.hs2": "glitch",
+    "scope.glitch.clk_src": "clkgen",
+    "scope.glitch.output": "clock_xor",
+    "scope.glitch.trigger_src": "ext_single",
+    "scope.trigger.triggers": "tio4",
+    "scope.glitch.width": -7,
+    "scope.glitch.offset": -40,
+    "scope.glitch.ext_offset": 90,
+    "scope.glitch.repeat": 1
+  },
+  "golden": {
+    "return_code": 25,
+    "status_hex": "0x00000033",
+    "eoc": 1
+  },
+  "fault": {
+    "return_code": 245,
+    "status_hex": "0x000001EB",
+    "eoc": 1,
+    "magic_ok": true,
+    "xor_decimal": 236,
+    "xor_hex": "0xEC",
+    "xor_binary": "11101100",
+    "bits_flipped": 6,
+    "classification": "silent_data_corruption"
+  },
+  "campaign_stats": {
+    "total_trials_w_minus7": 280,
+    "normal": 222,
+    "faults": 1,
+    "crashes": 57,
+    "fault_rate_percent": 0.36,
+    "crash_rate_percent": 20.4
+  }
+}

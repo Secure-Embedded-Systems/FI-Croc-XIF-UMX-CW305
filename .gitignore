@@ -1,0 +1,22 @@
+# Bitstreams are committed via Git LFS (see .gitattributes).
+
+# Vivado / build artifacts
+*.jou
+*.log
+.Xil/
+vivado*.backup.*
+updatemem*.backup.*
+*.str
+
+# Toolchain / firmware build outputs
+*.o
+*.elf
+*.hex
+*.mem
+build/
+obj_dir/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

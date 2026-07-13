@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "timestamp": "2026-04-12T16:04:52.141857",
+    "bitstream": "../../fpga/cw305/out/croc_cw305.bit",
+    "golden_ret": 25,
+    "reprogram_count": 0
+  },
+  "summary": {
+    "total": 24,
+    "normal": 24,
+    "output_changed": 0,
+    "bram_wiped": 0,
+    "crash": 0,
+    "hang": 0,
+    "error": 0
+  },
+  "sweet_spots": [],
+  "trials": [
+    {
+      "trial": 1,
+      "width": 48,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 25,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.055626"
+    },
+    {
+      "trial": 2,
+      "width": 48,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 30,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.109981"
+    },
+    {
+      "trial": 3,
+      "width": 48,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 40,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.164352"
+    },
+    {
+      "trial": 4,
+      "width": 48,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 50,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.217973"
+    },
+    {
+      "trial": 5,
+      "width": 48,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 75,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.261338"
+    },
+    {
+      "trial": 6,
+      "width": 48,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 100,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.303619"
+    },
+    {
+      "trial": 7,
+      "width": 48,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 150,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.347535"
+    },
+    {
+      "trial": 8,
+      "width": 48,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 200,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.389753"
+    },
+    {
+      "trial": 9,
+      "width": 49,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 25,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.442178"
+    },
+    {
+      "trial": 10,
+      "width": 49,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 30,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.486591"
+    },
+    {
+      "trial": 11,
+      "width": 49,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 40,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.533514"
+    },
+    {
+      "trial": 12,
+      "width": 49,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 50,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.581483"
+    },
+    {
+      "trial": 13,
+      "width": 49,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 75,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.625005"
+    },
+    {
+      "trial": 14,
+      "width": 49,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 100,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.678004"
+    },
+    {
+      "trial": 15,
+      "width": 49,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 150,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.720083"
+    },
+    {
+      "trial": 16,
+      "width": 49,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 200,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.775128"
+    },
+    {
+      "trial": 17,
+      "width": 50,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 25,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.817870"
+    },
+    {
+      "trial": 18,
+      "width": 50,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 30,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.868988"
+    },
+    {
+      "trial": 19,
+      "width": 50,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 40,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.910941"
+    },
+    {
+      "trial": 20,
+      "width": 50,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 50,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:51.963125"
+    },
+    {
+      "trial": 21,
+      "width": 50,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 75,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:52.006279"
+    },
+    {
+      "trial": 22,
+      "width": 50,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 100,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:52.051292"
+    },
+    {
+      "trial": 23,
+      "width": 50,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 150,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:52.095288"
+    },
+    {
+      "trial": 24,
+      "width": 50,
+      "offset": 0,
+      "ext_offset": 100,
+      "repeat": 200,
+      "ret_code": 25,
+      "magic_ok": true,
+      "classification": "normal",
+      "timestamp": "2026-04-12T16:04:52.141572"
+    }
+  ]
+}

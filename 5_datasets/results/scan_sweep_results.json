@@ -1,0 +1,21 @@
+{
+  "description": "Scan chain sweep + FI results on cw305_scan bitstream",
+  "bitstream": "fpga/cw305_scan/out/croc_cw305.bit",
+  "scope": "CW-Lite",
+  "findings": {
+    "scan_readout_verified": true,
+    "scan_bits": 129,
+    "auto_capture_works": true,
+    "mx_active_cycles": "3 to 499 (105 non-zero cycles in range 1-500)",
+    "glitch_crash_boundary": "w=-9 to -10 (sporadic crashes)",
+    "glitch_no_effect": "w=-8 and above",
+    "scan_differences_observed": true,
+    "correlated_fault_plus_scan": false,
+    "limitation": "CW-Lite integer width resolution too coarse for silent fault sweet spot"
+  },
+  "interesting_cycles": {
+    "cycle_98": "golden se_a=254,se_b=30 → faulted all-FF (60 bits diff)",
+    "cycle_173": "golden zeros → faulted se_b=120,mac=0xF00001E0 (28 bits diff)",
+    "cycle_380": "crash with se=0,1 mac=0x1E000078 (38 bits diff from golden)"
+  }
+}

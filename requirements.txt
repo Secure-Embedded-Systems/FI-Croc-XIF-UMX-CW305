@@ -1,0 +1,19 @@
+# Python dependencies for the analysis and fault-injection scripts.
+#
+# The dataset -> table reproduction (6_analysis/reproduce.py) needs ONLY the
+# Python standard library and runs with a bare interpreter. The packages below
+# are for plotting (plot_results.py) and for driving the hardware campaigns.
+
+# Analysis / plotting (6_analysis)
+matplotlib>=3.5
+numpy>=1.21
+
+# Firmware weight generation (3_firmware) -- PyTorch training/quantization
+torch>=1.12          # optional: only for regenerating weights from scratch
+
+# Hardware fault injection on CW305 (4_fault_injection)
+chipwhisperer>=5.6   # requires a physical CW305 + CW-Lite; not needed to
+                     # reproduce the tables from the shipped datasets
+
+# Notebook (6_analysis/reproduce.ipynb)
+jupyter>=1.0

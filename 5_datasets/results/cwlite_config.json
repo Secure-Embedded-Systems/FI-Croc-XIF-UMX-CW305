@@ -1,0 +1,84 @@
+{
+  "title": "CW-Lite Clock Glitch Configuration for MX Coprocessor FI",
+  "date": "2026-04-12",
+  "status": "WORKING — produces crashes and persistent FPGA configuration faults",
+
+  "hardware": {
+    "scope": "ChipWhisperer CW-Lite (OpenADC)",
+    "target": "CW305 Artix-7 XC7A35T",
+    "fpga_design": "CROC SoC (CVE2 + MX Unified Coprocessor via CVXIF)",
+    "firmware": "qnn_llm_mxint8 (2-layer GPT decoder, MXINT8 dot products)",
+    "connection": "20-pin ribbon cable (standard, no jumper wires needed)",
+    "sma_x3": "Not used for clock glitch (crowbar, disconnected OK)",
+    "sma_x4": "Not used for clock glitch (measure, disconnected OK)"
+  },
+
+  "dip_switches": {
+    "J16": 1, "J16_note": "Clock source = CW-Lite HS2 (glitched clock via BUFGMUX)",
+    "K16": 1, "K16_note": "ext_clock output enabled",
+    "K15": 1, "K15_note": "Fetch enable (core runs)",
+    "L14": 1, "L14_note": "Spare"
+  },
+
+  "cwlite_settings": {
+    "scope.clock.clkgen_freq": "20e6 (20 MHz)",
+    "scope.io.hs2": "glitch",
+    "scope.glitch.clk_src": "clkgen",
+    "scope.glitch.output": "clock_xor",
+    "scope.glitch.trigger_src": "ext_single",
+    "scope.trigger.triggers": "tio4",
+    "scope.adc.timeout": 2.0,
+    "scope.adc.samples": 100
+  },
+
+  "trigger_mechanism": {
+    "type": "USB register (usb_clk domain, no soc_clk dependency)",
+    "register": "0x05 bit[0]",
+    "rtl": "assign trig_out = usb_trigger;  // in croc_cw305.sv",
+    "sequence": [
+      "1. target.fpga_write(0x03, [0x01])  — assert reset",
+      "2. target.fpga_write(0x03, [0x00])  — release reset, firmware starts",
+      "3. time.sleep(0.001)                — let firmware reach target region",
+      "4. scope.arm()                      — arm CW-Lite glitch module",
+      "5. target.fpga_write(0x05, [0x01])  — USB trigger HIGH → glitch fires",
+      "6. scope.capture()                  — wait for glitch completion",
+      "7. target.fpga_write(0x05, [0x00])  — clear trigger"
+    ]
+  },
+
+  "sweet_spots": {
+    "persistent_config_fault": {
+      "width": -7,
+      "offset": -30,
+      "ext_offset": "70-114 (any value)",
+      "repeat": 1,
+      "effect": "FPGA SRAM bit-flip, ret=27 (golden=25), XOR=0x2, 1 bit flipped",
+      "fault_rate": "65.9% (445/675 trials)",
+      "note": "Persistent — same wrong result until FPGA reprogrammed"
+    },
+    "transient_crash": {
+      "width": "-14 to -18",
+      "offset": -40,
+      "ext_offset": "80-150",
+      "repeat": 1,
+      "effect": "CPU crash (eoc=0), FPGA config intact (magic=CROC)",
+      "crash_rate": "20% (8/40 trials with reprogram-per-trial)"
+    }
+  },
+
+  "width_boundary_map": {
+    "-6_to_-8": "Persistent FPGA config fault (silent, ret=27)",
+    "-13": "All normal (no effect)",
+    "-14_to_-18": "Transient CPU crash (20% rate)",
+    "-18_and_below": "High crash rate (>40%)"
+  },
+
+  "golden_reference": {
+    "return_code": 25,
+    "status_register": "0x00000033",
+    "firmware": "qnn_llm_mxint8",
+    "magic": "0x434F5243 (CROC)"
+  },
+
+  "husky_note": "Husky does NOT work with this CW305 — HS2 pin routing differs. CW-Lite's DCM-based glitch module routes clock_xor to HS2 which reaches CW305 N14 via the 20-pin cable. Husky's PLL-based module does not."
+}

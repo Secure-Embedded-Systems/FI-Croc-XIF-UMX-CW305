@@ -1,0 +1,57 @@
+{
+  "title": "MX Coprocessor Clock Glitch FI — Complete Results",
+  "date": "2026-04-13",
+
+  "bitstream_1_no_scan": {
+    "file": "fpga/cw305/out/croc_cw305.bit",
+    "sweet_spot_persistent": {
+      "width": -7, "offset": -30, "repeat": 1,
+      "effect": "FPGA config SRAM bit-flip, ret=27 (golden=25), XOR=0x2",
+      "fault_rate": "65.9% (445/675)",
+      "note": "Persistent until reprogram. Same bit flipped every trial."
+    },
+    "sweet_spot_crash": {
+      "width_range": "-14 to -18", "offset": -40, "repeat": 1,
+      "crash_rate": "20% with reprogram-per-trial (8/40)",
+      "silent_faults_with_reprogram": 0
+    },
+    "first_silent_fault": {
+      "width": -7, "offset": -40, "ext_offset": 90, "repeat": 1,
+      "golden_ret": 25, "faulted_ret": 245,
+      "xor": 236, "bits_flipped": 6,
+      "note": "Persistent config corruption, not transient"
+    }
+  },
+
+  "bitstream_2_with_scan": {
+    "file": "fpga/cw305_scan/out/croc_cw305.bit",
+    "scan_readout": {
+      "verified": true, "bits": 129, "auto_capture": true,
+      "fields": "rs1_q, rs2_q, mac_acc, se_a, se_b, op, fmt, inflight, rd, id"
+    },
+    "mx_active_cycles": "105 non-zero cycles in range 1-500",
+    "crash_boundary": "w=-10 (27 crashes in 200 trials)",
+    "no_effect": "w=-9 and above (0 crashes, 0 faults in 1500+ trials)",
+    "scan_difference_at_w8": {
+      "cycle_98": "golden se=254,30 → faulted se=255,255 (60 bits diff)",
+      "cycle_173": "golden zeros → faulted se_b=120 (28 bits diff)",
+      "note": "Glitch shifts timing of captured instruction, not corruption"
+    },
+    "correlated_fault_plus_scan": false,
+    "limitation": "CW-Lite integer width: gap between w=-9 (no effect) and w=-10 (crash) too wide for silent fault"
+  },
+
+  "infrastructure_proven": {
+    "cwlite_clock_glitch": "Works via HS2 pin, J16=1",
+    "usb_trigger": "REG 0x05 bit[0], avoids clock_xor deadlock",
+    "scan_auto_capture": "REG 0x0D scan_delay, captures at programmable cycle after trigger",
+    "scan_usb_readout": "REG 0x08-0x0C, 5x32-bit registers",
+    "firmware": "QNN MXINT8 (2-layer GPT, golden ret=25)"
+  },
+
+  "next_steps": [
+    "Husky with fractional width for silent fault sweet spot",
+    "Higher clock frequency (30-40 MHz) to narrow timing margins",
+    "Different firmware with longer MX computation for more glitch windows"
+  ]
+}
